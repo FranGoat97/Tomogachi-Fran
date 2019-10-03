@@ -1,0 +1,77 @@
+.health{/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  top: 150px;/*dont touch this no more */
+  left: 75px;/*dont touch this no more */
+  font-size: 25px;/*dont touch this no more */
+  font-weight: bold;/*dont touch this no more */
+}
+.health-icon{/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  width: 3%;/*dont touch this no more */
+  height: auto;/*dont touch this no more */
+  left: 20px;/*dont touch this no more */
+  top: 150px;/*dont touch this no more */
+  } /*dont touch this no more */
+.dumbell{/*dont touch this no more */
+  width: 3%;/*dont touch this no more */
+  height: auto;/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  top: 200px;/*dont touch this no more */
+  left: 20px;/*dont touch this no more */
+}
+.bored{/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  font-size: 25px;/*dont touch this no more */
+  top: 200px;/*dont touch this no more */
+  left: 75px;/*dont touch this no more */
+  font-weight: bold;/*dont touch this no more */
+}
+.age{/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  font-size: 25px;/*dont touch this no more */
+  top: 250px;/*dont touch this no more */
+  left: 75px;/*dont touch this no more */
+  font-weight: bold;/*dont touch this no more */
+}
+.pet{/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  width:4%;/*dont touch this no more */
+  height: auto;/*dont touch this no more */
+  left: 13px;/*dont touch this no more */
+  top: 240px;/*dont touch this no more */
+}
+.meat{
+  width: 3%;/*dont touch this no more */
+  height: auto;/*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  top: 300px;/*dont touch this no more */
+  left: 20px;/*dont touch this no more */
+}
+.hunger{ /*dont touch this no more */
+  position: fixed;/*dont touch this no more */
+  font-size: 25px;/*dont touch this no more */
+  top: 300px;/*dont touch this no more */
+  left: 75px;/*dont touch this no more */
+  font-weight: bold;/*dont touch this no more */
+}
+#name{
+  position: fixed;
+  right: 200px;
+}
+#image1{
+  position: fixed;
+  top: 100px;
+  right: 500px;
+  visibility: hidden;
+}
+#workout{
+  position: fixed;
+  top: 100px;
+  right: 500px;
+  visibility: hidden;
+}
+body{
+  background-image:url("background.jpg");
+  background-attachment: fixed;
+  font-family: 'Mansalva', cursive;
+}

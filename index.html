@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <title>Tomogachi Don Don</title>
+  </head>
+  <body>
+    <audio id="music"><source src="css/music.mp3" type="audio/mpeg"></audio>
+    <img class="dumbell" src="css/dumbell.svg" alt=dumbell>
+    <img class="health-icon" src="css/health.svg" alt="health">
+    <img class="pet" src="css/pet.png" alt="pet">
+    <img class="meat" src="css/meat.svg" alt="meat">
+    <button value="Refresh Page" onClick="window.location.href=window.location.href">RESET SWITCH</button>
+
+    <div id="name">Pet Name:<input type="text" placeholder="Name Please"><button id="start" onclick="playAudio()">Create</button></div>
+    <img id="image1" src="css/idle.gif" alt="pet.png">
+    <img id="workout" src="css/action.gif">
+
+    <div id="hp"class="health">Health:15</div>
+    <div id="bored"class="bored">Bored: 0</div>
+    <div id="age" class="age">Age: 0</div>
+    <div id="hunger" class="hunger">Hunger: 0</div>
+    <script src ="js/app.js"></script>
+  </body>
+</html>
